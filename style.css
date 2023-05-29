@@ -1,6 +1,48 @@
 body{
     margin: 0;
 }
+
+#loading {
+    /* display: none; */
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top:0;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30vh;
+}
+  
+.input-container {
+    position: relative;
+    width: 200px;
+    margin-top: 20px;
+  }
+  .input-container input {
+    padding: 5px;
+    font-size: 120%;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid blue;
+    outline-width: 0;
+  }
+  .input-container .placeholder {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    pointer-events: none;
+    color: #999;
+    transition: all 0.3s ease;
+  }
+  .input-container.input-active .placeholder {
+    top: -10px;
+    font-size: 10px;
+  }
+
+  body{
+    margin: 0;
+}
 .box{
     width: 300px;
     height: 200px;

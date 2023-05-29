@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+#loading {
+    /* display: none; */
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top:0;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30vh;
+}
+  

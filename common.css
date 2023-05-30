@@ -7,3 +7,20 @@ a{
     text-decoration: none;
     color: black;
 }
+
+@media all and (min-width:780px){
+    header{
+        text-align: center;
+    }
+    header a{
+        float: left;
+    }
+    header h2{
+        display: inline-block;
+    }
+}
+@media all and (max-width:780px){
+    header h2{
+        text-align: center;
+    }
+}

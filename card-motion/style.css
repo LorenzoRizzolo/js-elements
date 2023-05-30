@@ -10,6 +10,12 @@ body{
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
+
+    background: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.3));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .box.red{ background-color: red; color: white;}
 .box.blue{ background-color: blue; color: white;}

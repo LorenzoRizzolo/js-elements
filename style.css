@@ -1,3 +1,7 @@
+body{
+  padding-bottom: 50px;
+}
+
 #searchbar{
   margin: 5px;
   border: 0;

@@ -1,8 +1,8 @@
 :root{
-    --bg-color: #7fdd7780;
+    --bg-color: lightblue;
     --footer-color: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.3));
-    --footer-tx-color: black; 
-    --hover-footer-color: linear-gradient(135deg, rgba(81, 255, 0, 0.518), rgba(6, 168, 249,0.7));
+    --footer-tx-color: white; 
+    --hover-footer-color: blue;
     --number-footer-values: 3;
 }
 
@@ -35,14 +35,14 @@ footer{
     color: black;
     /* margin: 5px; */
 }
-.opzioni div:hover, .footer-select{
+.opzioni div:hover, .footer-select div{
     cursor: pointer;
+    color:var(--footer-tx-color);
     background: var(--hover-footer-color);
 }
 a{
     border-radius: 10px;
     text-decoration: none;
-    color: var(--footer-tx-color);
     margin: 5px;
 }
 .all{

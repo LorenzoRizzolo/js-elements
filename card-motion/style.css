@@ -52,4 +52,13 @@ body{
         width: 600px;
     }
 }
+
+header{
+    padding: 10px;
+    font-size: 120%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
   

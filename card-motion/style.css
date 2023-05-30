@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-.box{
+.card-motion{
     width: 300px;
     height: 200px;
     margin: auto;
@@ -17,14 +17,14 @@ body{
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.box.red{ background-color: red; color: white;}
-.box.blue{ background-color: blue; color: white;}
-.box.green{ background-color: green; color: white;}
-.box.yellow{ background-color: yellow; color: black;}
-.box.orange{ background-color: orange; color: black;}
-.box .title{ margin-bottom: 200px;}
-.box .close{ display: none; }
-.box.open {
+.card-motion.red{ background-color: red; color: white;}
+.card-motion.blue{ background-color: blue; color: white;}
+.card-motion.green{ background-color: green; color: white;}
+.card-motion.yellow{ background-color: yellow; color: black;}
+.card-motion.orange{ background-color: orange; color: black;}
+.card-motion .title{ margin-bottom: 200px;}
+.card-motion .close{ display: none; }
+.card-motion.open {
     position: fixed;
     z-index: 500;
     border-radius: 0;
@@ -33,22 +33,22 @@ body{
     width: 100%;
     height: 100vh;
 }
-.box.open .close{ display: block; font-style: italic;}
-.box.open .title{ margin-bottom: 10px; }
-.box .title h2{ margin-top: 0; }
-.box.open .title h1,
-.box.open .title h2,
-.box.open .title h3,
-.box.open .title h4,
-.box.open .title h5,
-.box.open .title h6
+.card-motion.open .close{ display: block; font-style: italic;}
+.card-motion.open .title{ margin-bottom: 10px; }
+.card-motion .title h2{ margin-top: 0; }
+.card-motion.open .title h1,
+.card-motion.open .title h2,
+.card-motion.open .title h3,
+.card-motion.open .title h4,
+.card-motion.open .title h5,
+.card-motion.open .title h6
 { margin-top: 10px; }
 .content {
     padding: 20px;
 }
 
 @media all and (min-width:780px){
-    .box{
+    .card-motion{
         width: 600px;
     }
 }

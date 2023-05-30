@@ -1,0 +1,42 @@
+#searchbar{
+    margin: 5px;
+    border: 0;
+    border-bottom: 2px solid blue;
+    font-size: 120%;
+    outline: 0;
+}
+
+.value {
+    margin: 5px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 5px;
+}
+
+.input-container {
+    position: relative;
+    width: 200px;
+    margin-top: 30px;
+  }
+  .input-container input {
+    padding: 5px;
+    font-size: 120%;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid blue;
+    outline-width: 0;
+  }
+  .input-container .placeholder {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    pointer-events: none;
+    color: #999;
+    transition: all 0.3s ease;
+  }
+  .input-container.input-active .placeholder {
+    top: -10px;
+    font-size: 10px;
+  }
+  

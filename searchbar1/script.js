@@ -10707,7 +10707,7 @@ return jQuery;
 
 
 
-// my script (to don't remove)
+// my function (to don't remove)
 $(document).ready(function() {
     $('#searchbar').on('input', function() {
       var searchText = $(this).val().toLowerCase();
@@ -10724,29 +10724,4 @@ $(document).ready(function() {
 	//   console.log(searchText+": "+count)
     });
   });
-  var inputs = document.querySelectorAll(".input-container input");
-var placeholders = document.querySelectorAll(".input-container .placeholder");
-for (var i = 0; i < inputs.length; i++) {
-  inputs[i].addEventListener("focus", function() {
-    var placeholder = this.nextElementSibling;
-    placeholder.style.top = "-20px";
-    placeholder.style.color = "black";
-  });
-  inputs[i].addEventListener("blur", function() {
-    var placeholder = this.nextElementSibling;
-    if (this.value === "") {
-      placeholder.style.top = "8px";
-      placeholder.style.fontSize = "";
-      placeholder.style.fontSize = "";
-      placeholder.style.color = "#999";
-    }
-  });
-}
-
-  let doctitle = document.title
-  window.addEventListener("blur", ()  => {
-	document.title = "Come back :(";
-  });
-  window.addEventListener("focus", ()=>{
-	document.title = doctitle;
-  })
+  

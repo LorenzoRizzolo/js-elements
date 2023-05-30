@@ -6,9 +6,7 @@ if(!mySwitch.checked){
 mySwitch.addEventListener("change", function() {
   if (this.checked) {
     statusElement.textContent = "ON";
-    // Puoi fare altre azioni asincrone qui in base allo stato del pulsante
   } else {
     statusElement.textContent = "OFF";
-    // Puoi fare altre azioni asincrone qui in base allo stato del pulsante
   }
 });

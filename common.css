@@ -1,3 +1,7 @@
+body{
+    padding-bottom: 50px;
+}
+
 header{
     padding: 10px;
     font-size: 120%;
@@ -6,6 +10,20 @@ header{
 a{
     text-decoration: none;
     color: black;
+}
+.dow{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 120%;
+    padding: 10px;
+}
+.dow div{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    border-radius: 10px;
 }
 
 @media all and (min-width:780px){
@@ -22,5 +40,6 @@ a{
 @media all and (max-width:780px){
     header h2{
         text-align: center;
-    }
+    }ù
 }
+

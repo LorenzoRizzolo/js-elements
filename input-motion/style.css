@@ -1,6 +1,7 @@
 .input-container {
   position: relative;
   width: 200px;
+  margin: auto;
   margin-top: 30px;
 }
 .input-container input {

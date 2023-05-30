@@ -17,6 +17,10 @@ body{
   color: black;
   border-radius: 5px;
   font-size: 120%;
+  transition: 0.5s;
+}
+.value:hover{
+  font-size: 140%;
 }
 a{
   text-decoration: none;

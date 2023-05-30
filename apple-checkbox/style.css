@@ -19,6 +19,10 @@ a{
     color: black;;
 }
 
+.chose{
+  display: inline-block;
+}
+
 .switch {
     position: relative;
     display: inline-block;
@@ -40,8 +44,12 @@ a{
     right: 0;
     bottom: 0;
     background-color: #ccc;
+
     -webkit-transition: .4s;
     transition: .4s;
+  }
+  .sw2{
+    background-color:var(--check-color)
   }
   
   .slider:before {

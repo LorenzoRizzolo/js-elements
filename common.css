@@ -1,17 +1,22 @@
 body{
     padding-bottom: 50px;
     margin: 0;
+    background-color: rgb(44, 43, 43);
+    color: white;
 }
 
 header{
     padding: 10px;
     font-size: 120%;
-    background-color: white;
+    color: white;
+    background-color: rgb(233, 95, 95);
 }
 a{
     text-decoration: none;
     color: black;
 }
+
+
 .dow div{
     padding: 10px;
     border-bottom: 2px solid blue;
@@ -22,6 +27,9 @@ a{
 }
 .dow div:hover{
     background-color: lightblue;
+}
+.reload-box{
+    color: black;
 }
 
 @media all and (min-width:780px){
@@ -38,6 +46,15 @@ a{
     }
     .dow{
         float: right;
+    }
+    .reload-box{
+        background-color: #f1f1f1;
+        padding: 15px;
+        width: 400px;
+        margin: 20px auto;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 120%;
     }
 }
 @media all and (max-width:780px){

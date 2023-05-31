@@ -10,6 +10,7 @@
   width: 100%;
   border: 0;
   border-bottom: 2px solid blue;
+  background-color: rgb(43,43,43);
   outline-width: 0;
 }
 .input-container .placeholder {

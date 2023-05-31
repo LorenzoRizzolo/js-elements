@@ -4,7 +4,7 @@ for (var i = 0; i < inputs.length; i++) {
   inputs[i].addEventListener("focus", function() {
     var placeholder = this.nextElementSibling;
     placeholder.style.top = "-20px";
-    placeholder.style.color = "black";
+    placeholder.style.color = "white";  // color of end transition
   });
   inputs[i].addEventListener("blur", function() {
     var placeholder = this.nextElementSibling;

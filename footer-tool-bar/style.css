@@ -2,7 +2,7 @@
     --bg-color: lightblue;
     --footer-color: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.3));
     --footer-tx-color: white; 
-    --hover-footer-color: blue;
+    --hover-footer-color: rgb(233, 95, 95);
     --number-footer-values: 4;
 }
 

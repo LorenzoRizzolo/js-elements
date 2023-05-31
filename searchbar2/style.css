@@ -1,17 +1,21 @@
 #searchbar{
-    margin: 5px;
-    border: 0;
-    border-bottom: 2px solid blue;
-    font-size: 120%;
-    outline: 0;
+  margin: 5px;
+  border: 0;
+  border-bottom: 2px solid aqua;
+  color: white;
+  background-color: rgb(43,43,43);
+  font-size: 120%;
+  outline: 0;
 }
 
 .value {
-    margin: 5px;
-    padding: 15px;
-    background-color: #f1f1f1;
-    color: black;
-    border-radius: 5px;
+  margin: 10px;
+margin-left: 5px;
+padding: 15px;
+color: white;
+border-radius: 5px;
+font-size: 120%;
+transition: 0.5s;
 }
 
 .input-container {

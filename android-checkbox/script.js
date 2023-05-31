@@ -1,4 +1,4 @@
-var switches = document.querySelectorAll(".mySwitch");
+var switches = document.querySelectorAll(".android-switch-input");
 var statusElements = document.querySelectorAll(".status");
 switches.forEach(function(switchElement, index) {
   var statusElement = statusElements[index];

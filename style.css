@@ -1,5 +1,20 @@
 body{
   padding-bottom: 50px;
+  margin: 0;
+}
+
+header{
+  background-color: lightblue;
+  padding: 10px;
+}
+header h1{
+  margin-top: 0;
+}
+
+.info{
+  background-color: blue;
+  color: white;
+  padding: 10px;
 }
 
 #searchbar{
@@ -11,7 +26,8 @@ body{
 }
 
 .value {
-  margin: 5px;
+  margin: 10px;
+  margin-left: 5px;
   padding: 15px;
   background-color: #f1f1f1;
   color: black;
@@ -51,4 +67,10 @@ a{
 .input-container.input-active .placeholder {
   top: -10px;
   font-size: 10px;
+}
+
+@media (min-width:780px){
+  .value{
+    width: 300px;
+  }
 }

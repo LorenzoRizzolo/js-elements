@@ -3,7 +3,7 @@
     --footer-color: linear-gradient(135deg, rgba(255,255,255,0.3), rgba(255,255,255,0.3));
     --footer-tx-color: white; 
     --hover-footer-color: blue;
-    --number-footer-values: 3;
+    --number-footer-values: 4;
 }
 
 body{
@@ -24,7 +24,7 @@ footer{
 }
 .opzioni{
     display: grid;
-    grid-template-columns: repeat(var(--number-footer-values), 33.3%);
+    grid-template-columns: repeat( var(--number-footer-values), calc(100%/ var(--number-footer-values) ));
 }
 .opzioni div{
     text-align: center;
@@ -33,7 +33,6 @@ footer{
     padding-bottom: 15px;
     border-radius: 10px;
     color: black;
-    /* margin: 5px; */
 }
 .opzioni div:hover, .footer-select div{
     cursor: pointer;

@@ -1,5 +1,5 @@
 var switches = document.querySelectorAll(".android-switch-input");
-var statusElements = document.querySelectorAll(".status");
+var statusElements = document.querySelectorAll(".android-switch-status");
 switches.forEach(function(switchElement, index) {
   var statusElement = statusElements[index];
   if(!switches.checked){

@@ -1,5 +1,5 @@
-var switches = document.querySelectorAll(".mySwitch");
-var statusElements = document.querySelectorAll(".status");
+var switches = document.querySelectorAll(".apple-switch-input");
+var statusElements = document.querySelectorAll(".apple-switch-status");
 switches.forEach(function(switchElement, index) {
   var statusElement = statusElements[index];
   if(!switches.checked){
